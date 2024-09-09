@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Page</title>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav id="navbar">
+            <ul><a href="#home">Home</a></ul>
+            <ul><a href="#about">About</a></ul>
+            <ul><a href="#statistics">Statistics</a></ul>
+            <ul><a href="#goal">Goals</a></ul>
+            <ul><a href="#contact">Contact</a></ul>
+        </nav>
+    </header>
+
+    <body>
+
+        <section id="home">
+
+            <div class="text">
+                <div class="napisy">
+                    <p class="first">Hello my name is</p>
+                    <p class="second">Cristiano Ronaldo</p>
+                    <p class="third">and i'm a proffessionl football player.</p>
+                    <div class="links">
+                        <a class="link" href="https://www.youtube.com/@cristiano"><img src="/img/yt.png" height="50px" alt=""></a>
+                        <a class="link" href="https://www.instagram.com/cristiano/"><img src="/img/ig.png" height="50px" alt=""></a>
+                        <a class="link" href="https://www.facebook.com/Cristiano/?locale=pl_PL"><img src="/img/fb.png" height="50px" alt=""></a>
+                        <a class="link" href="https://x.com/cristiano"><img src="/img/twittr.png" height="50px" alt=""></a>
+                    </div>
+                </div>
+                <div>
+
+                    <img src="/img/ronaldo.png" height="800px"  class="picture">
+                </div>
+                
+            </div>
+
+
+
+        </section>
+
+        <section id="about">
+
+            <h1>About Cristiano Ronaldo</h1>
+
+            <div class="text">
+
+                <img src="/img/ronaldo1.png" alt="" height="800" class="picture1">
+
+                <div class="text-right">
+
+                    <p>
+                        <span class="highlight">Cristiano Ronaldo</span> is widely regarded as one of the greatest football players of all time. 
+                        Throughout his career, <span class="highlight">Cristiano Ronaldo</span> has set numerous records and won multiple awards. 
+                        <span class="highlight">Cristiano Ronaldo</span> has played for top clubs like Manchester United, Real Madrid, and Juventus, 
+                        and his impact on the field is undeniable. Fans across the world admire <span class="highlight">Cristiano Ronaldo</span> 
+                        not only for his incredible skill but also for his dedication and work ethic.
+
+                    </p>
+                    <p>
+                        <span class="highlight">Cristiano Ronaldo</span> has always been a remarkable player with exceptional athleticism and technique. 
+                        His journey began in Madeira, Portugal, and his rise to fame was marked by his incredible performances at Sporting CP. 
+                        Moving to Manchester United, <span class="highlight">Cristiano Ronaldo</span> quickly became a household name, 
+                        before making a significant impact at Real Madrid where he won numerous titles. 
+                        <span class="highlight">Cristiano Ronaldo</span>'s versatility on the field is evident as he continues to achieve milestones 
+                        and inspire young footballers worldwide with his relentless drive and passion for the game.
+
+                    </p>
+                    
+                    <div>
+
+                        <button onclick="wiki()" class="chceckmore">Check more</button>
+
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <section id="statistics">
+
+            <h1>Statistics</h1>
+
+            <div>
+                <h2 id="ha2">Choose club to see all <span class="highlight1">CR7</span> stats:</h2>
+                <div id="clubs">
+                    <button onclick="handleClick('sporting lizbona')" class="click" id="click1"><img src="/img/sporting_lizbona.webp" alt="" height="220"></button>
+                    <button onclick="handleClick('manchester united')" class="click" id="click2"><img src="/img/Manchesterunited.png" alt="" height="220"></button>
+                    <button onclick="handleClick('real madryt')" class="click" id="click3"><img src="/img/Logo-real-madrid-club-clipart-PNG.png" alt="" height="220"></button>
+                    <button onclick="handleClick('juventus')" class="click" id="click4"><img src="/img/juventus-logo.png" alt="" height="220"></button>
+                    <button onclick="handleClick('all nassr')" class="click" id="click5"><img src="/img/al-nassr-fc-logo-1.png" alt="" height="220"></button>
+                    <button onclick="handleClick('portugal')" class="click" id="click6"><img src="/img/Portuguese_Football_Federation.svg.png" alt="" height="220"></button>
+                </div>
+
+                <div id="club-info" style="display: none">
+                    <div id="club-stats">
+                        <div id="club-image"></div>
+                        <div id="stats-details">
+                            <div id="matches"></div>
+                            <div id="asists"></div>
+                            <div id="goals"></div>
+                            <div id="trophies"></div>
+                        </div>
+                    </div>
+                    <button id="back" onclick="goBack()">Back</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="goal">
+            <h1>Best Goals</h1>
+            <div id="video">
+
+            <iframe id="videoFrame" width="1000" height="500" src="" frameborder="0" allowfullscreen></iframe>
+
+            <div>
+                <button id="prevBtn" onclick="previousVideo()">Previous</button>
+            
+                <button id="nextBtn" onclick="nextVideo()">Next</button>
+            </div>
+        </div>
+
+        </section>
+
+        <section id="contact">
+            <div class="footer">
+                <div>Github</div>
+                <div>Email</div>
+                <div>Number: 535-027-007</div>
+                <div>#####</div>
+                <div>#####</div>
+            </div>
+            <div class="footer1">Copyright 2024, Designed by <span class="bold">SZYMON NOWICKI</span></div>
+        </section>
+
+        
+    </body>
+
+    <script src="football.js"></script>
+</body>
+</html>
