@@ -13,7 +13,7 @@ function handleClick(clubname) {
 
     
     if(clubname == "sporting lizbona"){
-        clubImage.innerHTML = '<img src="/img/sporting_lizbona.webp" alt="" height="400" width="400">';
+        clubImage.innerHTML = '<img src="img/sporting_lizbona.webp" alt="" height="400" width="400">';
         matchesElement.innerText = "Matches Played: 31"; 
         asistsElement.innerHTML="Asists : 6";
         goalsElement.innerText = "Goals Scored: 5"; 
@@ -22,7 +22,7 @@ function handleClick(clubname) {
     }
 
     else if(clubname == "manchester united"){
-        clubImage.innerHTML = '<img src="/img/manchesterunited.png" alt="" height="400" width="400">';
+        clubImage.innerHTML = '<img src="img/manchesterunited.png" alt="" height="400" width="400">';
         matchesElement.innerText = "Matches Played: 346"; 
         asistsElement.innerHTML="Asists : 64";
         goalsElement.innerText = "Goals Scored: 145"; 
@@ -30,7 +30,7 @@ function handleClick(clubname) {
     }
 
     else if(clubname == "real madryt"){
-        clubImage.innerHTML = '<img src="/img/Logo-real-madrid-club-clipart-PNG.png" alt="" height="400" width="400">';
+        clubImage.innerHTML = '<img src="img/Logo-real-madrid-club-clipart-PNG.png" alt="" height="400" width="400">';
         matchesElement.innerText = "Matches Played: 438"; 
         asistsElement.innerHTML="Asists : 131";
         goalsElement.innerText = "Goals Scored: 450"; 
@@ -38,7 +38,7 @@ function handleClick(clubname) {
     }
 
     else if(clubname == "juventus"){
-        clubImage.innerHTML = '<img src="/img/juventus-logo.png" alt="" height="400" width="400">';
+        clubImage.innerHTML = '<img src="img/juventus-logo.png" alt="" height="400" width="400">';
         matchesElement.innerText = "Matches Played: 134"; 
         asistsElement.innerHTML="Asists : 22";
         goalsElement.innerText = "Goals Scored: 101"; 
@@ -46,7 +46,7 @@ function handleClick(clubname) {
     }
 
     else if(clubname == "all nassr"){
-        clubImage.innerHTML = '<img src="/img/al-nassr-fc-logo-1.png" alt="" height="400" width="400">';
+        clubImage.innerHTML = '<img src="img/al-nassr-fc-logo-1.png" alt="" height="400" width="400">';
         matchesElement.innerText = "Matches Played: 68"; 
         asistsElement.innerHTML="Asists : 17";
         goalsElement.innerText = "Goals Scored: 62"; 
@@ -54,7 +54,7 @@ function handleClick(clubname) {
     }
 
     else if(clubname == "portugal"){
-        clubImage.innerHTML = '<img src="/img/Portuguese_Football_Federation.svg.png" alt="" height="400" width="400">';
+        clubImage.innerHTML = '<img src="img/Portuguese_Football_Federation.svg.png" alt="" height="400" width="400">';
         matchesElement.innerText = "Matches Played: 212"; 
         asistsElement.innerHTML="Asists : 45";
         goalsElement.innerText = "Goals Scored: 130"; 
