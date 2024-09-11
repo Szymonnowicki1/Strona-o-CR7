@@ -19,7 +19,7 @@ function handleClick(clubname) {
             break;
 
         case "manchester united":
-            clubImage.innerHTML = '<img src="img/manchesterunited.png" alt="" height="400" width="400">';
+            clubImage.innerHTML = '<img src="img/Manchesterunited.png" alt="" height="400" width="400">';
             matchesElement.innerText = "Matches Played: 346"; 
             asistsElement.innerText = "Assists: 64";
             goalsElement.innerText = "Goals Scored: 145"; 
