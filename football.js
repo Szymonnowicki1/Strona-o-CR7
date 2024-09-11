@@ -8,7 +8,6 @@ function handleClick(clubname) {
     const asistsElement = document.getElementById("asists");
     const goalsElement = document.getElementById("goals");
     const trophiesElement = document.getElementById("trophies");
-    clubImage.style.display = 'block';
 
     switch(clubname) {
         case "sporting lizbona":
